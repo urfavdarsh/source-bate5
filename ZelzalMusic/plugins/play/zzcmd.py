@@ -13,7 +13,7 @@ from config import OWNER_ID
 @app.on_callback_query(filters.regex("zzzback"))
 async def zzzback(_, query: CallbackQuery):
    await query.edit_message_text(
-       f"""<b>» مرحبـاً بك عـزيـزي</b>\n<b>» استخـدم الازرار بالاسفـل\n» لـ تصفـح اوامـر بـوت دارك</b>""",
+       f"""<b>» مرحبـاً بك عـزيـزي</b>\n<b>» استخـدم الازرار بالاسفـل\n» لـ تصفـح اوامـر بـوت بطيخ</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -29,7 +29,7 @@ async def zzzback(_, query: CallbackQuery):
                         "〔 اوامــر المطــور 〕", callback_data="zzzdv"),
                 ],[
                     InlineKeyboardButton(
-                        "〔 مبـرمج السـورس 〕", url="https://t.me/A7_M3"),
+                        "〔 مبـرمج السـورس 〕", url="https://t.me/urfav_darsh"),
                 ],
             ]
         ),
@@ -40,7 +40,7 @@ async def zzzback(_, query: CallbackQuery):
 @app.on_callback_query(filters.regex("zzzdv") & SUDOERS)
 async def mpdtsf(_, query: CallbackQuery):
    await query.edit_message_text(
-       f"""<b>» مرحبـاً بك عـزيـزي المطـور </b>\n\n<b>» استخـدم الازرار بالاسفـل\n» لـ تصفـح اوامـر بـوت دارك</b>""",
+       f"""<b>» مرحبـاً بك عـزيـزي المطـور </b>\n\n<b>» استخـدم الازرار بالاسفـل\n» لـ تصفـح اوامـر بـوت بطيخ</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
