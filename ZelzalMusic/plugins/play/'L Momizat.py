@@ -20,7 +20,7 @@ from random import  choice, randint
     command(["مميزات","مميزات"])
  )
 async def mmmezat(client, message):
-        await message.reply_text(f"""مرحبًا بك عزيزي » {message.from_user.mention} في قسم مميزات ميوزك دارك \n
+        await message.reply_text(f"""مرحبًا بك عزيزي » {message.from_user.mention} في قسم مميزات ميوزك بطيخ \n
 
 ⌯ ميزة ⦂ المطور بيجيب مطور البوت 
 ⌯ ميزة ⦂ تنبيه بفتح وقفل الكول
@@ -53,14 +53,14 @@ async def mmmezat(client, message):
 ⌯ ميزة ⦂ لو خيروك / كتابات
 ⌯ ميزة ⦂ اي حاجه تتبعت في البوت تجيلك في مجموعة السجل
 
-لتنصيب بوت مشابه تواصل معي فالخاص @A7_M3""",
+لتنصيب بوت مشابه تواصل معي فالخاص @urfav_darsh""",
 
 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝘼𝙍𝙆", url=f"https://t.me/D2_RK"),                        
+                        "𝙎𝙊𝙐𝙍𝘾𝙀 𝘽𝘼𝙏𝙀5", url=f"https://t.me/urfav_darsh2"),                        
                  ],[
                 InlineKeyboardButton(
                         "Close", callback_data="close"),
