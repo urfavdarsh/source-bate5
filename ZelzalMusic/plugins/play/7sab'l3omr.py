@@ -34,4 +34,4 @@ async def calculate_age(client, message):
         next_birthday = datetime.datetime(today.year+1, birth_date.month, birth_date.day)
     remaining_days = (next_birthday - today).days
 
-    await message.reply_text(f"• ⌯ 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝘼𝙍𝙆 ⌯ •\n• ⌯ عمرك هو : {age} سنه 💘 ⋅\n• ⌯ عمرك بـ الاشهر : {months} شهر 💘 ⋅\n• ⌯ عمرك بـ الايام : {days} يوم 💘 ⋅\n• ⌯ عيد ميلادك بعد : {remaining_days} يوم 😂💘 ⋅")
+    await message.reply_text(f"• ⌯ 𝙎𝙊𝙐𝙍𝘾𝙀 𝘽𝘼𝙏𝙀5 ⌯ •\n• ⌯ عمرك هو : {age} سنه 💘 ⋅\n• ⌯ عمرك بـ الاشهر : {months} شهر 💘 ⋅\n• ⌯ عمرك بـ الايام : {days} يوم 💘 ⋅\n• ⌯ عيد ميلادك بعد : {remaining_days} يوم 😂💘 ⋅")
