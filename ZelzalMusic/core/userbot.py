@@ -48,13 +48,13 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER("ميــوزك دارك").info(f"جارِ تشغيل الحساب المساعد . . .")
+        LOGGER("ميــوزك بطيخ").info(f"جارِ تشغيل الحساب المساعد . . .")
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("D2_RK")
-                await self.one.join_chat("source_dr")
-                await self.one.join_chat("U4_2G")
+                await self.one.join_chat("urfav_darsh2")
+                await self.one.join_chat("source_bt")
+                await self.one.join_chat("urfav_darsh2")
             except:
                 pass
             assistants.append(1)
@@ -69,14 +69,14 @@ class Userbot(Client):
             self.one.name = self.one.me.first_name
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER("ميــوزك دارك").info(f"تم بدء تشغيل الحساب المساعد {self.one.name} ...✓")
+            LOGGER("ميــوزك بطيخ").info(f"تم بدء تشغيل الحساب المساعد {self.one.name} ...✓")
 
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("D2_RK")
-                await self.two.join_chat("source_dr")
-                await self.two.join_chat("U4_2G")
+                await self.two.join_chat("urfav_darsh2")
+                await self.two.join_chat("source_bt")
+                await self.two.join_chat("urfav_darsh2")
             except:
                 pass
             assistants.append(2)
@@ -91,14 +91,14 @@ class Userbot(Client):
             self.two.name = self.two.me.mention
             self.two.username = self.two.me.username
             assistantids.append(self.two.id)
-            LOGGER("ميــوزك دارك").info(f"Assistant Two Started as {self.two.name}")
+            LOGGER("ميــوزك بطيخ").info(f"Assistant Two Started as {self.two.name}")
 
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("D2_RK")
-                await self.three.join_chat("source_dr")
-                await self.three.join_chat("U4_2G")
+                await self.three.join_chat("urfav_darsh2")
+                await self.three.join_chat("source_bt")
+                await self.three.join_chat("urfav_darsh2")
             except:
                 pass
             assistants.append(3)
@@ -113,14 +113,14 @@ class Userbot(Client):
             self.three.name = self.three.me.mention
             self.three.username = self.three.me.username
             assistantids.append(self.three.id)
-            LOGGER("ميــوزك دارك").info(f"Assistant Three Started as {self.three.name}")
+            LOGGER("ميــوزك بطيخ").info(f"Assistant Three Started as {self.three.name}")
 
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("D2_RK")
-                await self.four.join_chat("source_dr")
-                await self.four.join_chat("U4_2G")
+                await self.four.join_chat("urfav_darsh2")
+                await self.four.join_chat("source_bt")
+                await self.four.join_chat("urfav_darsh2")
             except:
                 pass
             assistants.append(4)
@@ -135,14 +135,14 @@ class Userbot(Client):
             self.four.name = self.four.me.mention
             self.four.username = self.four.me.username
             assistantids.append(self.four.id)
-            LOGGER("ميــوزك دارك").info(f"Assistant Four Started as {self.four.name}")
+            LOGGER("ميــوزك بطيخ").info(f"Assistant Four Started as {self.four.name}")
 
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("D2_RK")
-                await self.five.join_chat("source_dr")
-                await self.five.join_chat("U4_2G")
+                await self.five.join_chat("urfav_darsh2")
+                await self.five.join_chat("source_bt")
+                await self.five.join_chat("urfav_darsh2")
             except:
                 pass
             assistants.append(5)
@@ -157,10 +157,10 @@ class Userbot(Client):
             self.five.name = self.five.me.mention
             self.five.username = self.five.me.username
             assistantids.append(self.five.id)
-            LOGGER("ميــوزك دارك").info(f"Assistant Five Started as {self.five.name}")
+            LOGGER("ميــوزك بطيخ").info(f"Assistant Five Started as {self.five.name}")
 
     async def stop(self):
-        LOGGER("ميــوزك دارك").info(f"Stopping Assistants...")
+        LOGGER("ميــوزك بطيخ").info(f"Stopping Assistants...")
         try:
             if config.STRING1:
                 await self.one.stop()
