@@ -28,14 +28,11 @@ async def huhh(client: Client, message: Message):
                 ],[
                     InlineKeyboardButton(
                         "𝐒𝐎𝐔𝐑𝐂𝐄 𝐁𝐀𝐓𝐄5", url=f"https://t.me/urfav_darsh2"),
-                    InlineKeyboardButton(
-                        "𝐒𝐎𝐔𝐑𝐂𝐄 𝐁𝐀𝐓𝐄5", url=f"https://t.me/source_bt"),
+                    
                 ],[
                     InlineKeyboardButton(
                         "𝐃𝐄𝐕 𝐌𝐔𝐒𝐓𝐀𝐅𝐀", url=f"https://t.me/urfav_darsh"),
-                ],[
-                    InlineKeyboardButton(
-                        "𝐃𝐄𝐕 𝐌𝐔𝐒𝐓𝐀𝐅𝐀", url=f"https://t.me/urfav_darsh2"),
+              
                 ],[
                     InlineKeyboardButton(text="𝐂𝐥𝐨𝐬𝐞", callback_data="close"),   
             ]
