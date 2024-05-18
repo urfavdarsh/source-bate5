@@ -18,11 +18,11 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/cc514ad2cb01a66e8eaa0.jpg",
+        photo=f"https://telegra.ph/file/1a32b3ec7f13870841bb9.jpg",
         caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪ 𝐌 𝐔 𝐒 𝐓 𝐀 𝐅 𝐀❫
 ◉ 𝚄𝚂𝙴𝚁 : ❪ @urfav_darsh ❫
 ◉ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 : ❪ urfav_darsh2.t.me ❫
-◉ 𝙱𝙸𝙾    : ❪[متتعشمش عشان القفا ميعلّمش..👍🏿](https://t.me/urfav_darsh2 ❫""",
+◉ 𝙱𝙸𝙾    : متتعشمش عشان القفا ميعلّمش..👍🏿""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
