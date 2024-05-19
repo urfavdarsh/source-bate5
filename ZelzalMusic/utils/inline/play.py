@@ -69,7 +69,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [InlineKeyboardButton(text=_["DESIGN_BUTTON"], url=f"https://t.me/urfav_darsh2"),
-        InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url=f"https://t.me/vip_darsh")],
+        InlineKeyboardButton(text=_["ZTHON_BUTTON2"], url=f"https://t.me/de_4a")],
         [InlineKeyboardButton(text=_["ZTHON_BUTTON3"], url=f"https://t.me/urfav_darsh")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
