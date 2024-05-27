@@ -28,7 +28,7 @@ async def iddlock(client, message):
 )
 async def iddopen(client, message):
    get = await app.get_chat_member(message.chat.id, message.from_user.id)
-   if get.status in [5449190469]:
+   if get.status in [5981371585]:
       if not message.chat.id in iddof:
         return await message.reply_text("الايدي مفعل من قبل √")
       iddof.remove(message.chat.id)
