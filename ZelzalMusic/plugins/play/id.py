@@ -69,7 +69,7 @@ iddof = []
 )
 async def lllock(client, message):
    get = await app.get_chat_member(message.chat.id, message.from_user.id)
-   if get.status in [5449190469]:
+   if get.status in [5981371585]:
       if message.chat.id in iddof:
         return await message.reply_text("جمالي معطل من قبل√")
       iddof.append(message.chat.id)
@@ -83,7 +83,7 @@ async def lllock(client, message):
 )
 async def idljjopen(client, message):
    get = await app.get_chat_member(message.chat.id, message.from_user.id)
-   if get.status in [5449190469]:
+   if get.status in [5981371585]:
       if not message.chat.id in iddof:
         return await message.reply_text("جمالي مفعل من قبل√")
       iddof.remove(message.chat.id)
@@ -96,7 +96,7 @@ async def idljjopen(client, message):
 @app.on_message(filters.command(['تفعيل التعديل'], prefixes=""))
 async def iddlock(client, message):
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
-    if get.status in [5449190469]:
+    if get.status in [5981371585]:
         if message.chat.id in italy:
             return await message.reply_text("تم تفعيل التعديل \n√")
         italy.append(message.chat.id)
@@ -107,7 +107,7 @@ async def iddlock(client, message):
 @app.on_message(filters.command(['تعطيل التعديل'], prefixes=""))
 async def iddopen(client, message):
    get = await app.get_chat_member(message.chat.id, message.from_user.id)
-   if get.status in [5449190469]:
+   if get.status in [5981371585]:
       if not message.chat.id in italy:
         return await message.reply_text("التعديل معطل من قبل \n√")
       italy.remove(message.chat.id)
